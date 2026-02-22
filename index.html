@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kwiaciarnia Anna Mikołajczyk | Pasłęk - Wersja demonstracyjna</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Fonty: Cormorant Garamond (Elegancja) + Montserrat (Nowoczesność) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Montserrat:wght@300;400;600&display=swap" 
+    rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+    <!-- 1. NAGŁÓWEK -->
+    <header class="main-header">
+        <div class="container">
+                    <!-- Pudełko na logo (Wszystko razem) -->
+                <div class="logo-container">
+                <i data-lucide="flower-2" class="logo-icon"></i>
+                <div class="logo-text">
+                    <span class="company-name">KWIACIARNIA</span>
+                    <span class="company-sub">Anna Mikołajczyk</span>
+                </div>
+        </div> 
+            <nav>
+                <ul>
+                    <li><a href="#o-mnie">O nas</a></li>
+                    <li><a href="#oferta">Oferta</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#kontakt" class="btn-nav">Zadzwoń i zamów</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 2. HERO (Zdjęcie główne) -->
+    <section class="hero">
+        <div class="hero-overlay">
+            <div class="hero-content">
+                <p class="subtitle">ŚWIEŻE KWIATY I DEKORACJE W PASŁĘKU</p>
+                <h1>Tworzymy bukiety z pasją. <br>Kwiaty na każdą okazję.</h1>
+                <a href="#oferta" class="btn-gold">Zobacz ofertę</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. O MNIE (Budowanie autorytetu) -->
+    <section id="o-mnie" class="about-section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2>O Kwiaciarni</h2>
+                    <p>Jesteśmy lokalną kwiaciarnią z tradycjami. <p>Kochamy kwiaty i dbamy o to, by zawsze były świeże.</p></p>
+                    <p>Doradzimy w wyborze idealnej kompozycji</p>
+                    <div class="achievements">
+                        <div><span>10+</span>Lat tradycji</div>
+                        <div><span>1000+</span>Bukietów</div>
+                        
+                    </div>
+                </div>
+                <!-- Tu wstawimy zdjęcie Pani Pauliny lub ładne zdjęcie ze stocka -->
+                <div class="about-image">
+                    <img src="img/kwiaciarnia.jpg" alt="Kwiaciarnia Pasłęk">
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- 3b. GALERIA (Efekty zabiegów) -->
+<section id="galeria" class="gallery-section">
+    <div class="container">
+        <h2>Nasze realizacje</h2>
+        <div class="gallery-grid">
+            
+            
+            <div class="gallery-item">
+                <img src="img/kwiaty1.jpg" alt="">
+            </div>
+
+            <div class="gallery-item">
+                <img src="img/kwiaty2.jpg" alt="">
+            </div>
+
+            <div class="gallery-item">
+                <img src="img/kwiaty3.jpg" alt="">
+            </div>
+
+            <div class="gallery-item">
+                <img src="img/kwiaty4.jpg" alt="">
+            </div>
+            <div class="gallery-item">
+                <img src="img/kwiaty5.jpg" alt="">
+            </div>
+            <div class="gallery-item">
+                <img src="img/kwiaty6.jpg" alt="">
+            </div>
+            
+        </div>
+        <!-- Przycisk do Facebooka -->
+        <div class="cta-center">
+            <a href="https://www.facebook.com/profile.php?id=100053670113634" target="_blank" class="btn-gold-outline">Zobacz więcej na Facebooku</a>
+        </div>
+    </div>
+</section>
+
+
+    <!-- 4. OFERTA (Zaktualizowana) -->
+<section id="oferta" class="services-section">
+    <div class="container">
+        <h2>Oferta</h2>
+        <div class="services-grid">
+            
+    <!-- 1. Bukiety -->
+<div class="service-card">
+    <i data-lucide="gift" class="service-icon"></i>
+    <h3>Kwiaty Cięte</h3>
+    <p>Świeże bukiety na urodziny, imieniny i rocznice. Duży wybór kwiatów sezonowych.</p>
+</div>
+
+<!-- 2. Doniczkowe -->
+<div class="service-card">
+    <i data-lucide="sprout" class="service-icon"></i>
+    <h3>Kwiaty Doniczkowe</h3>
+    <p>Rośliny zielone i kwitnące. Piękna ozdoba Twojego domu lub biura.</p>
+</div>
+
+<!-- 3. Ślubne (Wiązanki) -->
+<div class="service-card">
+    <i data-lucide="heart" class="service-icon"></i>
+    <h3>Wiązanki Ślubne</h3>
+    <p>Wymarzony bukiet Panny Młodej, butonierki i korsarze. Indywidualne projekty.</p>
+</div>
+
+<!-- 4. Kościół -->
+<div class="service-card">
+    <i data-lucide="church" class="service-icon"></i> <!-- Ikona Kościoła (jeśli jest) lub 'home' -->
+    <h3>Dekoracje Kościołów</h3>
+    <p>Oprawa florystyczna ślubów i komunii. Dekoracja ołtarza, ławek i wejścia.</p>
+</div>
+
+<!-- 5. Auto -->
+<div class="service-card">
+    <i data-lucide="car" class="service-icon"></i>
+    <h3>Dekoracja Auta</h3>
+    <p>Eleganckie przystrojenie samochodu do ślubu. Girlandy, kompozycje na maskę.</p>
+</div>
+
+<!-- 6. Pogrzebowe -->
+<div class="service-card">
+    <i data-lucide="flower" class="service-icon"></i>
+    <h3>Florystyka Pogrzebowa</h3>
+    <p>Wieńce, wiązanki na floretach, dekoracje urny. Z dowozem na cmentarz.</p>
+</div>
+</div>
+        </div>
+    </section>
+
+    <!-- 6. OPINIE KLIENTEK -->
+<section class="reviews-section">
+    <div class="container">
+        <h2>Opinie klientów</h2>
+        <div class="reviews-grid">
+            
+            <!-- Opinia 1 -->
+            <div class="review-card">
+                <div class="stars">
+                <i data-lucide="star"></i>
+                <i data-lucide="star"></i>
+                <i data-lucide="star"></i>
+                <i data-lucide="star"></i>
+                <i data-lucide="star"></i>
+                </div>
+                <p>"Jestem bardzo zadowolona z telefonicznej obsługi i terminowej dostawy bukietu. 
+                    Bardzo miłe i profesjonalne podejście do klienta. Polecam Kwiaciarnię."</p>
+                <span class="client-name">- Anna K.</span>
+            </div>
+
+            <!-- Opinia 2 -->
+            <div class="review-card">
+                <div class="stars">
+                <i data-lucide="star"></i>
+                <i data-lucide="star"></i>
+                <i data-lucide="star"></i>
+                <i data-lucide="star"></i>
+                <i data-lucide="star"></i>
+                </div>
+                <p>"Bukiet który wykonała Pani Asia przeszedł moje oczekiwania, starannie przygotowany, z dbałością o każdy detal. 
+                    Dwa pozostałe bukieciki również były przepiękne ! Serdecznie polecam ! 🩷"</p>
+                <span class="client-name">- Martyna M.</span>
+            </div>
+
+            <!-- Opinia 3 -->
+            <div class="review-card">
+                <div class="stars">
+                <i data-lucide="star"></i>
+                <i data-lucide="star"></i>
+                <i data-lucide="star"></i>
+                <i data-lucide="star"></i>
+                <i data-lucide="star"></i>
+                </div>
+                <p>"Jestem bardzo zadowolona z obsługi jak i szybkiej dostawy.
+                    Bardzo dziękuję za wykonanie przepięknego bukietu dla mamy i dostarczenie go! 
+                    Bardzo była zadowolona polecam jak najbardziej ❤️"</p>
+                <span class="client-name">- Patrycja K.</span>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+    <!-- 5. STOPKA I KONTAKT -->
+    <footer id="kontakt">
+        <div class="container footer-content">
+                <div class="contact-info">
+                   <h2>Zamówienia i Kontakt</h2>
+                  <p>Zadzwoń, aby zamówić bukiet lub omówić dekorację.</p>
+    
+                   <a href="tel:505174225" class="phone-link">
+                      <i data-lucide="phone"></i> 505 174 225
+                   </a>
+    
+                  <p class="address">
+                     <i data-lucide="map-pin"></i> 3 Maja 56, 14-400 Pasłęk
+                    </p>
+                </div>
+            
+            <!-- Mapa Google -->
+            <div class="map-container">
+                
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d984.6054500696265!2d19.668969690937473!3d54.05956176629217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e2b168ebc6432f%3A0xa752cf94eb1adb73!2sKwiaciarnia%20Anna%20Miko%C5%82ajczyk!5e0!3m2!1sen!2spl!4v1771776327001!5m2!1sen!2spl"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2026 Kwiaciarnia Anna Mikołajczyk | Realizacja: Szymon Szturo</p>
+    </footer>
+<script>
+    lucide.createIcons();
+</script>
+</body>
+</html>
