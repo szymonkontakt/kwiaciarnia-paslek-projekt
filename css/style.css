@@ -485,6 +485,25 @@ footer h2 { color: var(--gold); margin-bottom: 20px; }
     color: var(--white); /* Tekst na ciemnym tle stopki */
     margin-bottom: 15px;
 }
+.hours {
+    display: flex;
+    align-items: center; /* Wyrównanie w pionie */
+    justify-content: flex-start; /* Desktop: Lewo */
+    gap: 15px;
+    font-size: 1.1rem;
+    color: var(--white);
+    margin-bottom: 15px;
+}
+.phone-link, .address, .hours {
+    display: flex;
+    gap: 15px; /* Stały odstęp dla wszystkich */
+    align-items: center;
+}
+
+/* Usuń marginesy z ikon, jeśli masz */
+.contact-info svg {
+    margin-right: 0; 
+}
 
 /* --- RESPONSYWNOŚĆ --- */
 @media (max-width: 768px) {
@@ -545,5 +564,9 @@ footer h2 { color: var(--gold); margin-bottom: 20px; }
     .logo-text {
         align-items: center; /* Wyśrodkuj teksty (Kwiaciarnia / Anna) */
         text-align: center;
+    }
+    .hours {
+        justify-content: center; /* Mobile: Środek */
+        text-align: left; /* Tekst godzin (Pn/Sob) wyrównany do lewej w bloku */
     }
 }
